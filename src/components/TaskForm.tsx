@@ -10,8 +10,8 @@ interface Props {
 }
 
 const initialState = {
-  title: '',
-  description: ''
+  title:'',
+  description:''
 };
 
 
@@ -46,7 +46,7 @@ export default function TaskForm({ addANewTask }: Props) {
         />
 
         <textarea
-          name='descripcion'
+          name='description'
           rows={2}
           placeholder='write a Description'
           className='form-control mb-3 shadow-none border-0'
